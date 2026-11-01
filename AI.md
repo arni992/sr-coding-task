@@ -1,7 +1,11 @@
 # AI.md — How AI was used
 
-## Summary
+Bellow summary I attached full prompt history.
+I used local LLM used or this task - 125b Qwen 3.8 Flash Next. 
+I used opencode (v2.2) as coding agent with ponytail plugin. opencode is similar to commercial claude code.
+Ponytail keeps AI output possibly tight so I didn't really need adding skills for this repo.
 
+## Summary
 An AI coding agent (OpenCode, Qwen model) was used in two phases:
 
 1. **Requirements analysis** — the agent extracted the task PDF (`pdftotext`),

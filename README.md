@@ -1,4 +1,4 @@
-# World Cup Scoreboard
+ # World Cup Scoreboard
 
 A small Java library that manages a live football World Cup scoreboard with multiple
 simultaneous matches.
@@ -12,6 +12,11 @@ mvn test      # runs the test suite (18 tests)
 
 Requirements: Java 17+ (compiled with `--release 17`), Maven. The only dependency is
 JUnit 5, in test scope — the library itself has **no runtime dependencies**.
+
+Why java 17?
+Since the goal was to create library, not an app, lower versions provide broader compatibility.
+Version 17 seemed like a reasonable compromise here - LTS, not too old, record classes.
+
 
 Note: this repository is public. It contains no company names or branding, and
 `.gitignore` excludes `*.pdf` (the task specification) and `*.jar` files.
